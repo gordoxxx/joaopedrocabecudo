@@ -23,6 +23,9 @@
   
   .logo-blocks {
     display: grid;
+}
+
+@keyframes Loading {
     grid-template-columns: 1fr 1fr;
     grid-gap: .5rem;
   }
@@ -41,6 +44,9 @@
     background:#f25022;
     animation: Loading 6s infinite;
   }
+}
+
+@keyframes Loading {
   
   .blue {
     background: #00a4ef;
@@ -58,9 +64,9 @@
     background: #ffb900;
     animation: Loading 6s infinite;
     animation-delay: 4.5s;
-  }
-  
-  @keyframes Loading {
+}
+
+@keyframes Loading {
     0% {
       transform: rotate(0deg);
     }
