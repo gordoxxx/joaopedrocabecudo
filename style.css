@@ -26,9 +26,17 @@
 }
 
 @keyframes Loading {
-    grid-template-columns: 1fr 1fr;
+    grid-}
+  
+    .red {
+      background:#f25022;
+      animation: Loading 6s infinite;
+    }
+  
+  
+  @ktemplate-columns: 1fr 1fr;
     grid-gap: .5rem;
-  }
+  
   
   .logo-block {
     height: 50px;
@@ -38,13 +46,21 @@
   .logo-text {
     color: #bbb;
     font-size: 2rem;
-  }
-  
-  .red {
-    background:#f25022;
-    animation: Loading 6s infinite;
-  }
 }
+  
+.red {
+  background:#f25022;
+  animation: Loading 6s infinite;
+}
+
+  
+.red {
+  background:#f25022;
+  animation: Loading 6s infinite;
+}
+
+
+@k
 
 @keyframes Loading {
   
@@ -64,7 +80,7 @@
     background: #ffb900;
     animation: Loading 6s infinite;
     animation-delay: 4.5s;
-}
+} }
 
 @keyframes Loading {
     0% {
